@@ -1,4 +1,3 @@
-// 状態管理
 export const state = () => ({
   mailTitle: '',
   mailContent: ''

@@ -1,7 +1,7 @@
 <template>
   <el-submenu :index="index">
     <template slot="title">
-      <i class="el-icon-location"></i>
+      <i :class="icon"></i>
       <span slot="title">{{ title }}</span>
     </template>
     <el-menu-item
@@ -20,6 +20,10 @@ export default {
     index: {
       type: String,
       default: ''
+    },
+    icon: {
+      type: String,
+      default: 'el-icon-info'
     },
     title: {
       type: String,

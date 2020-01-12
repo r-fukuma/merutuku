@@ -1,9 +1,9 @@
 <template>
   <el-container>
-    <el-aside width="200px">
+    <el-aside width="400px">
       <side-menu />
     </el-aside>
-    <el-main>
+    <el-main style="padding:0 20px">
       <mail-form />
     </el-main>
   </el-container>
