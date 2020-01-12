@@ -40,12 +40,12 @@ export default {
         {
           items: inform,
           icon: 'el-icon-warning-outline',
-          title: 'お知らせ・案内'
+          title: 'お知らせ・ご案内メール'
         },
         {
           items: thanks,
           icon: 'el-icon-present',
-          title: 'お礼'
+          title: 'お礼のメール'
         },
         // {
         //   items: reply,
@@ -53,14 +53,14 @@ export default {
         //   title: '回答'
         // },
         {
-          items: request,
-          icon: 'el-icon-document',
-          title: '相談・依頼'
-        },
-        {
           items: apologize,
           icon: 'el-icon-heavy-rain',
-          title: '断り・謝罪'
+          title: '謝罪のメール'
+        },
+        {
+          items: request,
+          icon: 'el-icon-document',
+          title: '相談・依頼したい'
         }
         // {
         //   items: greeting,
