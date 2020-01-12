@@ -1,16 +1,18 @@
 <template>
   <el-menu default-active="1" class="el-menu-vertical-demo">
-    <menu-item
-      v-for="(n, i) in categories"
-      :key="i + 1"
-      :items="n.items"
-      :icon="n.icon"
-      :index="i + 1"
-      :title="n.title"
-    />
-    <!-- <menu-item :items="thanks" index="2" title="お礼" />
-    <menu-item :items="thanks" index="3" title="回答" />
-    <menu-item :items="thanks" index="4" title="相談" /> -->
+    <el-menu-item-group title="テンプレート集" style="margin-top: 10px">
+      <menu-item
+        v-for="(n, i) in categories"
+        :key="i + 1"
+        :items="n.items"
+        :icon="n.icon"
+        :index="i + 1"
+        :title="n.title"
+      />
+    </el-menu-item-group>
+    <el-menu-item-group title="その他">
+      <site-info />
+    </el-menu-item-group>
   </el-menu>
 </template>
 
@@ -25,7 +27,8 @@ import apologize from '~/assets/mail-templates/apologize.json'
 
 export default {
   components: {
-    MenuItem: () => import('~/components/SideMenuItem.vue')
+    MenuItem: () => import('~/components/SideMenuItem.vue'),
+    SiteInfo: () => import('~/components/TheSiteInfo.vue')
   },
   data() {
     return {
