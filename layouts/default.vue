@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <el-header class="header" height="50px">
+    <el-header class="header" height="45px">
       <i class="el-icon-message" style="vertical-align: middle"></i>
       merutuku
     </el-header>
@@ -26,7 +26,7 @@ export default {
 .header {
   background-color: #478899;
   color: white;
-  font-size: 32px;
+  font-size: 28px;
 }
 * {
   margin: 0;
