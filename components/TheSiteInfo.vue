@@ -16,12 +16,8 @@ export default {
     return {
       items: [
         {
-          name: 'メルつくとは？',
+          name: 'merutukuとは？',
           link: '/about'
-        },
-        {
-          name: 'プライバシーポリシー',
-          link: '/policy'
         }
       ]
     }

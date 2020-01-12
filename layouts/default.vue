@@ -8,7 +8,7 @@
       <el-aside width="400px">
         <side-menu />
       </el-aside>
-      <el-main style="padding:0 20px">
+      <el-main style="padding:5px 20px">
         <nuxt />
       </el-main>
     </el-container>
