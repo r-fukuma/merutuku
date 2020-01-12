@@ -12,6 +12,10 @@
     </el-menu-item-group>
     <el-menu-item-group title="その他">
       <site-info />
+      <el-menu-item @click="goTo('/request')" index="4">
+        <i class="el-icon-edit-outline"></i>
+        <span>アンケート</span>
+      </el-menu-item>
     </el-menu-item-group>
   </el-menu>
 </template>
@@ -69,6 +73,11 @@ export default {
         //   title: '催促'
         // }
       ]
+    }
+  },
+  methods: {
+    goTo(link) {
+      this.$router.push(link)
     }
   }
 }

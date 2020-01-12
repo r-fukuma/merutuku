@@ -1,0 +1,11 @@
+<template>
+  <iframe
+    src="https://docs.google.com/forms/d/e/1FAIpQLSdCCij-S3iS_1FauoU0kwntykeKhpfq2BtZdShBnpdQg4pCwA/viewform?embedded=true"
+    width="900"
+    height="700"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+    >読み込んでいます…</iframe
+  >
+</template>

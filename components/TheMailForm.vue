@@ -14,7 +14,7 @@
       <textarea
         ref="content"
         :value="$store.state.mailContent"
-        rows="20"
+        rows="23"
         class="mail__content_inner"
       ></textarea>
     </div>
