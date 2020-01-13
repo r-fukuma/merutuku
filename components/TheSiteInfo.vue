@@ -16,8 +16,8 @@ export default {
     return {
       items: [
         {
-          name: 'merutukuとは？',
-          link: '/about'
+          name: 'メルつくとは？',
+          link: '/'
         }
       ]
     }

@@ -14,7 +14,7 @@
       <site-info />
       <el-menu-item @click="goTo('/request')" index="4">
         <i class="el-icon-edit-outline"></i>
-        <span>アンケート</span>
+        <span>リクエストフォーム</span>
       </el-menu-item>
     </el-menu-item-group>
   </el-menu>

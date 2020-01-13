@@ -1,8 +1,10 @@
 <template>
   <el-container>
     <el-header class="header" height="45px">
-      <i class="el-icon-message" style="vertical-align: middle"></i>
-      merutuku
+      <h1>
+        <i class="el-icon-message" style="vertical-align: middle"></i>
+        メルつく
+      </h1>
     </el-header>
     <el-container>
       <el-aside width="400px">
@@ -26,6 +28,8 @@ export default {
 .header {
   background-color: #478899;
   color: white;
+}
+h1 {
   font-size: 28px;
 }
 * {
