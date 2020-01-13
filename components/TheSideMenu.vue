@@ -26,7 +26,7 @@ import thanks from '~/assets/mail-templates/thanks.json'
 // import reply from '~/assets/mail-templates/reply.json'
 import request from '~/assets/mail-templates/request.json'
 import apologize from '~/assets/mail-templates/apologize.json'
-// import greeting from '~/assets/mail-templates/greeting.json'
+import inhouse from '~/assets/mail-templates/inhouse.json'
 // import remind from '~/assets/mail-templates/remind.json'
 
 export default {
@@ -40,7 +40,7 @@ export default {
         {
           items: inform,
           icon: 'el-icon-warning-outline',
-          title: 'お知らせ・ご案内メール'
+          title: 'お知らせメール'
         },
         {
           items: thanks,
@@ -60,13 +60,13 @@ export default {
         {
           items: request,
           icon: 'el-icon-document',
-          title: '相談・依頼したい'
+          title: '相談・依頼メール'
+        },
+        {
+          items: inhouse,
+          icon: 'el-icon-house',
+          title: '社内向けのメール'
         }
-        // {
-        //   items: greeting,
-        //   icon: 'el-icon-sunny',
-        //   title: '挨拶'
-        // },
         // {
         //   items: remind,
         //   icon: 'el-icon-thumb',
